@@ -8,4 +8,4 @@ My reading journal for Code Fellows: Intro to Software Development (seattle-code
 - Look towards my future goal
 - Ask for help from mentors
 
-Link to my Github: 
+Link to my Github: https://github.com/armonluck
