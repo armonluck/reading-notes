@@ -8,6 +8,12 @@ My reading journal for Code Fellows: Intro to Software Development (seattle-code
 - Work towards what your ideal self dreams of, not towards what your current self worries about
 - Everyone starts out in this world knowing nothing
 
-Link to my [Github]. (https://github.com/armonluck)
+### A little about me...
+- Name: Armon Luckenbach (he/him)
+- Location: Philadelphia, PA. Eastern Standard Time (3 hours ahead of Seattle, WA). 
+- Background: Biology and Biospecimen Donation
+- Link to my [GitHub](https://github.com/armonluck)
 
-Have fun with a coding meme ![Coding meme](https://www.digitaltechnologylabs.com/wp-content/uploads/2019/06/01-240x300.jpg)
+Have fun with a coding meme 
+
+![Coding meme](https://www.digitaltechnologylabs.com/wp-content/uploads/2019/06/01-240x300.jpg)
