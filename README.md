@@ -7,3 +7,5 @@ My reading journal for Code Fellows: Intro to Software Development (seattle-code
 - Positive affirmations
 - Look towards my future goal
 - Ask for help from mentors
+
+Link to my Github: 
