@@ -3,7 +3,7 @@ My reading journal for Code Fellows: Intro to Software Development (seattle-code
 
 ### Growth Mindset means persevering through difficult challenges even when you may have doubts about your ability. 
 
-*3 Reminders to myself to stay in a growt mindset:*
+*3 Reminders to keep yself to stay in a growt mindset:*
 - "If you don't attack anxiety, anxiety will attack you."
 - Work towards what your ideal self dreams of, not towards what your current self worries about
 - Everyone starts out in this world knowing nothing
