@@ -12,6 +12,8 @@ Markdown is a wonderful tool which allows us to create simple websites, notes, b
 
 > ##### History Time: Markdown was created by John Gruber and the late Aaron Swartz in 2004. If you have time, take a look at the history for these two as they both have made interesting contributions in technology. 
 
+***
+
 ### Why use Markdown? 
 
 Instead of Markdown, some of us prefer WYSIWG editors such as HTML or CSS. What is a WYSIWYG editor? Well first what does that unecessarily long abbreviation stand for? WYSIWYG stands for "What You See Is What You Get". In terms of computing/software development, this refers to creation or input of content which will appear similar to the final output or displayed product. 

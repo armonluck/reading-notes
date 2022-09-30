@@ -15,10 +15,11 @@ My reading journal for Code Fellows: Intro to Software Development (seattle-code
 - Link to my [GitHub](https://github.com/armonluck)
 
 #### Table of Contents: 
-- [Class 1 Notes](class1.md)
-- [Class 2 Notes](class2.md)
-- [Class 3 Notes](class3.md)
-- [Class 4 Notes](class4.md)
+- [Class 1 Notes - Learning Markdown](class1.md)
+- [Class 2 Notes - The Coder's Computer](class2.md)
+- [Class 3 Notes - Revisions and the Cloud](class3.md)
+- [Class 4 Notes - Structure web pages with HTML](class4.md)
+- [Class 5 Notes - Design web pages with CSS](class5.md)
 
 Have fun with a coding meme 
 
