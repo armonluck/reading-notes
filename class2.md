@@ -15,4 +15,4 @@ A *text editor* is software that allows you to write and manage text which is pr
 
 *Syntax highlighting* is essential for developers who may be at the computer all day and night. This feature changes the color of text. This allows for you to differentiate bewteen different sections of text and identify errors more easily. 
 
-*Color themes* are similarly important so that text is easier to read and pouring over dense code is less tedious. Web/software developers frequently use dark backgrounds and brightly colored text. It's almost like a scene from the Matrix. ![Coding picture](https://unsplash.com/photos/f77Bh3inUpE)
+*Color themes* are similarly important so that text is easier to read and pouring over dense code is less tedious. Web/software developers frequently use dark backgrounds and brightly colored text. It's almost like a scene from the Matrix. ![Coding picture](https://www.indiewire.com/wp-content/uploads/2017/10/matrix-code.jpg)
