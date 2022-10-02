@@ -29,4 +29,4 @@ My reading journal for Code Fellows: Intro to Software Development (seattle-code
 
 Have fun with a coding meme 
 
-![Coding meme](https://www.digitaltechnologylabs.com/wp-content/uploads/2019/06/01-240x300.jpg)
+![Coding meme: Picture of a person sitting at their computer. Top image says "It doesn't work...why?" Bottom image says "It works...why?"](https://www.digitaltechnologylabs.com/wp-content/uploads/2019/06/01-240x300.jpg)
