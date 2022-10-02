@@ -6,14 +6,14 @@
 - HTML is seen on front-end development
 - As noted above, HTML is NOT a programming language but is instead a *markup language*
 
-## What are Wireframes? 
+## What are Wireframes?
 
 - Practice used by UX Designers - low fidelity sketch of digital interface, barebones of a design
-- Provides basic artifact that can be tested with users through positioning of buttons and menus on the diagram 
-- Mobile app wireframes can be created for each screen in a product/app 
+- Provides basic artifact that can be tested with users through positioning of buttons and menus on the diagram
+- Mobile app wireframes can be created for each screen in a product/app
 - Types: physical hand drawn sketch vs digital wireframes
-- Both types need basic fundamental shapes in black/white/gray. Keep things in basic forms/colors. 
-- Digital wireframes can be shared w    ith the rest of the design team. 
+- Both types need basic fundamental shapes in black/white/gray. Keep things in basic forms/colors.
+- Digital wireframes can be shared with the rest of the design team.
 
 ### Digital Softwares to make Wireframes
 
@@ -31,7 +31,7 @@
 ### Code used to structure a web page and its content.
 
 - HTML consists of a series of **elements** which are used to enclose/wrap different parts of the content and make it appear a certain way
-- Enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make font bigger or smaller, and so on 
+- Enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make font bigger or smaller, and so on
 
 ### Elements: Opening Tag, Content, Closing Tag
 
