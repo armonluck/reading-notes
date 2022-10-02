@@ -11,4 +11,8 @@ A *text editor* is software that allows you to write and manage text which is pr
 3. Variety of color themes
 4. Option to choose from extensions when needed
 
-#### **#1 Code Completion**
+*Code completion* is a feature in some text editors which displays possible suggestions once you begin typing. This feature is similar to how your phone will display word suggestions when typing out a text message. Code completion will also finish closing tags/brackets/quotation marks for a user which is easily forgotten when writing code. VS Code, the text editor, being used in this class is especially helpful because it has Emmet built in which is a plug-in that allows you to type in shorthand and click on possible options which reveal long sections of intended code. 
+
+*Syntax highlighting* is essential for developers who may be at the computer all day and night. This feature changes the color of text. This allows for you to differentiate bewteen different sections of text and identify errors more easily. 
+
+*Color themes* are similarly important so that text is easier to read and pouring over dense code is less tedious. Web/software developers frequently use dark backgrounds and brightly colored text. It's almost like a scene from the Matrix. ![Coding picture](https://unsplash.com/photos/f77Bh3inUpE)
