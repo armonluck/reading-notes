@@ -14,8 +14,6 @@
 
 **Snapshots**: Git is a DVCS that stores data in a file system made up of *snapshots*. Each time you save a new version of a project (aka a commit) Git makes a snapshot of this file and references it for future use.
 
-**Local Operations**:
-
 **States**: Files in Git can exist in three (3) main states.
 
 1. Committed: Data is securely stored in a local database.
@@ -57,10 +55,10 @@ A copy of an existing Git respository can be cloned down to a computer server us
 3. command: `git push origin main`
     - Sends/Pushes changes from VS Code terminal on my computer up to the GitHub server.
 
-Exclamation marks will break code unless needed for a specific function
+Exclamation marks will break code unless needed for a specific function. 
 
-- command: `git pull origin main`
-    - Pulls changes from GitHub down to our computer (aka VSCODE)
+1. command: `git pull origin main`
+    - Pulls changes from GitHub down to our computer which can then be edited on VS Code
 
 ### *"Git"uations*
 
@@ -73,5 +71,5 @@ If changes are not properly consolidated between GitHub and VSCode then the requ
     - Recommend using this one so that changes can be edited as much/little as you want
 2. command: `git config pull.rebase true`
     - \# rebase
-3. command: `git config pul.ff only` 
+3. command: `git config pull.ff only` 
     - \# fast-forward only
