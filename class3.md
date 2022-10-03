@@ -38,3 +38,36 @@ Git's history begins with an open source software project called Linux kernel. P
 
 ## Remote Repositories
 
+## Useful Git Tips in the Terminal
+
+- command: `git status`
+    - This command checks if there are unsaved changes/edits. What is the status of my Git project or Git files?
+
+> We need to ‘ACP’ our changes: Add, Commit, Push!
+
+1. command: `git add [file name]`
+    - Selects the file which a user wants to begin saving. 
+    - Multipel files can be selected by adding a space between file names. E.g. `git add file1 file2`
+2. command: `git commit -m “Message goes here”`
+    - Adds a commit comment
+3. command: `git push origin main`
+    - Sends/Pushes changes from VS Code terminal on my computer up to the GitHub server.
+
+Exclamation marks will break code unless needed for a specific function
+
+- command: `git pull origin main`
+    - Pulls changes from GitHub down to our computer (aka VSCODE)
+
+### *"Git"uations*
+
+If changes are not properly consolidated between GitHub and VSCode then the request will break
+
+3 Ways to Fix "Git"uations:
+
+1. command: `git config pull.rebase false`
+    - \# merge
+    - Recommend using this one so that changes can be edited as much/little as you want
+2. command: `git config pull.rebase true`
+    - \# rebase
+3. command: `git config pul.ff only` 
+    - \# fast-forward only
