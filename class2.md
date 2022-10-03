@@ -1,15 +1,15 @@
 # Class 2 Reading Notes - *The Coder's Computer*
 
-## Choosing A Text Editor
+*Please refer to the [Mac Terminal Command Cheat Sheet](https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/) as a reference when navigating the terminal.*
 
-***
+## Choosing A Text Editor
 
 A *text editor* is software that allows you to write and manage text which is primarily used for building websites or applications. There are a myriad of options to choose from similar to how when choosing to buy a computer there are are seemingly endless options to sift through before landing on a decision. 
 
 ### **What Features are Important in a Text Editor?**
 
  1. *Code Completion*
-    - This is a feature in some text editors which displays possible suggestions once you begin typing. This feature is similar to how your phone will display word suggestions when typing out a text message. Code completion will also finish closing tags/brackets/quotation marks for a user which is easily forgotten when writing code. VS Code, the text editor, being used in this class is especially helpful because it has Emmet built in which is a plug-in that allows you to type in shorthand and click on possible options which reveal long sections of intended code.
+    - Feature in some text editors which displays possible suggestions once you begin typing. This *is similar to how your phone will display word suggestions when typing out a text message. Code completion will also finish closing tags/brackets/quotation marks for a user which is easily forgotten when writing code. VS Code, the text editor, being used in this class is especially helpful because it has Emmet built in which is a plug-in that allows you to type in shorthand and click on possible options which reveal long sections of intended code.
 
 2. *Syntax Highlighting*
     - Highlighting is essential for developers who may be staring at a computer for long stretches. This feature changes the color of text. This allows for you to differentiate bewteen different sections of text and identify errors more easily.
@@ -22,7 +22,7 @@ A *text editor* is software that allows you to write and manage text which is pr
 
 ### Software that already comes with a Computer
 
-All computers have basic built-in text editors. Mac computers use "Text Edit", Windows computers use "Notpad", and Linux computers have different text editors depending on which distrubtion you get. The above text editors will be missing many features that make coding more efficient such as syntax highlighting, code completion, etc. 
+All computers have basic built-in text editors. Mac computers use "Text Edit", Windows computers use "Notpad", and Linux computers have different text editors depending on which distrubtion you get. The above text editors will be missing many features that make coding more efficient such as syntax highlighting, code completion, etc.
 
 ### Third-Party Options
 
@@ -48,28 +48,25 @@ All computers have basic built-in text editors. Mac computers use "Text Edit", W
 
 - Cost: Free!
 - Computer: Windows, Mac, and Linux
-- Features: syntax highlighting, themes, extensions, and more. 
-- 
+- Features: syntax highlighting, themes, extensions, and more.
 
 #### Brackets
 
 - Cost: Free!
 - Computer: Windows, Mac, and Linux
-- Features: Only supports HTML, CSS, and JavaScript. 
+- Features: Only supports HTML, CSS, and JavaScript.
 
 #### Sublime Text
 
 - Cost: Free or $70 for full license
 - Computer: Windows, Mac, and Linux
-- Features: syntax highlighting, code completion, themes, and extensions. 
+- Features: syntax highlighting, code completion, themes, and extensions.
 
 ### The Difference Between Text Editors and IDEs
 
 An IDE or Integrated Development Environemnt) is a combination of software which serves as a text editor, file manager, compiler, and debugger all in one. This concept is similar to Gmail or Microsoft Outlook which act as an email server, calendar, task manager, and more.
 
 ## The Command Line or Terminal
-
-***
 
 ### What is a command line or terminal?
 
@@ -79,8 +76,8 @@ A **command line** or **terminal** is an interface which can control your comput
 
 This action varies based on your computer system so lets run through some options.
 
-- Linux: navigate to **Applications --> System** or **Applications --> Utilitites** to find the **Terminal**
 - Mac: navigate to **Applications --> Utilities** then click on **Terminal**. Another option is to click `command + space` on your keyboard (this opens the Spotlight Search option on a Mac) then type **Terminal** into the search bar.
+- Linux: navigate to **Applications --> System** or **Applications --> Utilitites** to find the **Terminal**
 
 ### The Shell, Bash
 
@@ -88,3 +85,13 @@ A terminal has a *shell* which is a part of the OS (operating system) which defi
 
 ## Basic Navigation
 
+For helpful terminal commands refer to the *cheat sheet* at the top of this note.
+
+### Paths
+
+A file or directory on a terminal is also a *path*. A path is way to get to or access a particular file/folder/directory in your system. There are two (2) types of paths: **absolute** and **relative** paths.
+
+A file system is a hiararchical structure similar to a tree's root system or a genealogical family tree. The top of the system is known as the **root directoy** which is marked by a forward slash (/). Under this root directory or subdirectories which can continue to branch off.
+
+- **Absolute Paths**: specifiy a file/directory in relation to the root dircotry
+- **Relative Paths**: specifiy a file/diretory in relation to where the user is currently located in a system.
