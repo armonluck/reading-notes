@@ -4,9 +4,9 @@
 
 ## Version Control
 
-**Version Control:** a system that allows you to revisit various verions of a file by recording changes. This allows you to revert a file/project to a previous version, track modifications & who made those changes, and compare changes. Using a Version Control System (VCS) mistakes or deleted information is esily fixed and collaboration between multiple people is simplified.
+**Version Control:** a system that allows you to revisit various versions of a file by recording changes. This allows you to revert a file/project to a previous version, track modifications, see who made those changes, and compare changes. Using a Version Control System (VCS) mistakes or deleted information is easily fixed and collaboration between multiple people is simplified.
 
-- **Local Version Control:** Outdates system in which a local VCS uses 1 database on your hard disk that stores changes and file data
+- **Local Version Control:** Outdated system in which a local VCS uses 1 database on your hard disk that stores changes and file data
 - **Centralized Version Control (CVCS):** A system which allows for a single server to store all changes and file data which can be accessed by multiple users.
 - **Distributed Version Control (DVCS):** This system addresses the flaw or weak point of a CVS: the server is a single point of failure. If a CVS server crashes, users cannot share work or save new changes. A DCVS fixes this by allowing clients to create *mirrored repositories* or data backups in case of a server error.
 
@@ -28,13 +28,13 @@
 
 ## History of Git
 
-Git's history begins with an open source software project called Linux kernel. Project developers started using a DVCS called BitKeeper in 2002, but in 2005 this stopped due to personal tensions. Following this, Linus Torvalds (chief developer of Linux kernel) started making Git. Since it's development, Git has become one of the most utilized Version Control Systems in the world with millions of users.
+Git's history begins with an open source software project called Linux kernel. Project developers started using a DVCS called BitKeeper in 2002, but in 2005 this stopped due to personal tensions. Following this, Linus Torvalds (chief developer of Linux kernel) started making Git. Since its development, Git has become one of the most utilized Version Control Systems in the world with millions of users.
 
 ## Setting up a Git Repository
 
 ### Cloning
 
-A copy of an existing Git respository can be cloned down to a computer server using the clone command with a repository's URL: 
+A copy of an existing Git repository can be cloned down to a computer server using the clone command with a repository's URL: 
 > `git clone [Git repository URl]`
 
 ## Workflow
@@ -55,7 +55,7 @@ A copy of an existing Git respository can be cloned down to a computer server us
 3. command: `git push origin main`
     - Sends/Pushes changes from VS Code terminal on my computer up to the GitHub server.
 
-Exclamation marks will break code unless needed for a specific function. 
+Exclamation marks will break code unless needed for a specific function.
 
 1. command: `git pull origin main`
     - Pulls changes from GitHub down to our computer which can then be edited on VS Code
