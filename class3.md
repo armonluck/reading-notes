@@ -34,11 +34,14 @@ Git's history begins with an open source software project called Linux kernel. P
 
 ## Setting up a Git Repository
 
+### Cloning
+
+A copy of an existing Git respository can be cloned down to a computer server using the clone command with a repository's URL: 
+> `git clone [Git repository URl]`
+
 ## Workflow
 
-## Remote Repositories
-
-## Useful Git Tips in the Terminal
+### Useful Git Tips in the Terminal
 
 - command: `git status`
     - This command checks if there are unsaved changes/edits. What is the status of my Git project or Git files?
@@ -47,9 +50,10 @@ Git's history begins with an open source software project called Linux kernel. P
 
 1. command: `git add [file name]`
     - Selects the file which a user wants to begin saving. 
-    - Multipel files can be selected by adding a space between file names. E.g. `git add file1 file2`
+    - Multiple files can be selected by adding a space between file names. E.g. `git add file1 file2`
 2. command: `git commit -m “Message goes here”`
-    - Adds a commit comment
+    - Adds a commit comment which is a brief description of changes made to a project.
+    - In order to commit **ALL** changes use the following command: `git commit -a` 
 3. command: `git push origin main`
     - Sends/Pushes changes from VS Code terminal on my computer up to the GitHub server.
 
