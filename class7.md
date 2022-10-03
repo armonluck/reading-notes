@@ -1,3 +1,3 @@
-# Class 8 Notes - *Operators and Loops*
+# Class 7 Notes - *Programming with JavaScript*
 
 Text goes here
