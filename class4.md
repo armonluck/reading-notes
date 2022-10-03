@@ -1,41 +1,41 @@
 # Class 4 Reading Notes - *Structure web pages with HTML*
 
-## What is HTML?
-
-- HTML (HyperText Markup Language)is a markup language used to create the bones, frame, structure, or scaffold of a website.
-- HTML is seen on front-end development
-- As noted above, HTML is NOT a programming language but is instead a *markup language*
-
 ## What are Wireframes?
 
-- Practice used by UX Designers - low fidelity sketch of digital interface, barebones of a design
-- Provides basic artifact that can be tested with users through positioning of buttons and menus on the diagram
-- Mobile app wireframes can be created for each screen in a product/app
-- Types: physical hand drawn sketch vs digital wireframes
+- **Wireframes** are low fidelity sketches of digital interface and are used by UX Designers. Think of them as the barebones of a website design
+- This practice provides basic artifacts that can be tested with users through positioning of buttons and menus on the diagram
+- Types: physical hand drawn sketches vs digital wireframes
 - Both types need basic fundamental shapes in black/white/gray. Keep things in basic forms/colors.
-- Digital wireframes can be shared with the rest of the design team.
+
+![Example of a wireframe for a mobile wepage on left and desktop page on right](https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/old-blog-uploads/versions/samuel-student-wireframe---x----972-715x---.png)
 
 ### Digital Softwares to make Wireframes
 
+- Miro (free)
+- InVision (free)
 - UXPin
-- InVision
 - Wireframe.cc
 - Balsamic
 - Google drawing
 
-### Free sites that CodeFellows recommends
+## What is HTML?
 
-- Miro (collaborative whiteboard
-- InVision- HTML basics- HTMlL (HyperText Markup Language)
+- HTML (HyperText Markup Language)is a *markup language* used to create the bones, frame, structure, or scaffold of a website and its content.
+- HTML is seen on front-end development
+- As noted above, HTML is NOT a programming language but is instead a *markup language*
 
 ### Code used to structure a web page and its content.
 
-- HTML consists of a series of **elements** which are used to enclose/wrap different parts of the content and make it appear a certain way
-- Enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make font bigger or smaller, and so on
+- HTML consists of a series of **elements** which are used to enclose/wrap different parts of the content and change its appearance
+- Enclosing tags can turn a word or image into a hyperlink, can change emphasis of words (bold, italics, etc.), can change font size, and more!
 
-### Elements: Opening Tag, Content, Closing Tag
+### Anatomy of an HTML Element
 
-- Opening tag: `<p>`, consists of name of element ‘p’ and surrounding brackets
+Lets use the following piece of code as an example:
+
+`<p>My dog is very sleepy</p>`
+
+- Opening tag: `<p>`, consists of the name of element ‘p’ and surrounding brackets
 - Content
 - Closing tag: `</p>` includes a *forward slash* before the element name. 
 
@@ -43,7 +43,10 @@
 
 - class=“editor-note” , info about the element that does NOT appear in the actual content. 
 - “Class” is attribute name and “editor-note” is the attribute value
-- Quote ALL attribute values for consistency- Nesting elements: elements inside of other elements- <strong> used to emphasize words- <p> used to denote a paragraph- Empty elements
+- Quote ALL attribute values for consistency
+- Nesting elements: elements inside of other elements
+- `<strong>` used to emphasize words
+- `<p>` used to denote a paragraph- Empty elements
 
 > There are elements with NO content or closing tags.
-> For example, the `<img>` element
+> For example, the `<img>` element.
