@@ -14,9 +14,13 @@
 
 **Snapshots**: Git is a DVCS that stores data in a file system made up of *snapshots*. Each time you save a new version of a project (aka a commit) Git makes a snapshot of this file and references it for future use.
 
-**Local Operations**: 
+**Local Operations**:
 
-**
+**States**: Files in Git can exist in three (3) main states.
+
+1. Committed: Data is securely stored in a local database.
+2. Modified: File has been changed, but not committed/saved to the database.
+3. Staged: Flagged a file's changed version to be committed/saved in the next snapshot.
 
 ***Pop Quiz: Do you remember exponents?***
 
@@ -26,10 +30,11 @@
 
 ## History of Git
 
-## Getting Started
+Git's history begins with an open source software project called Linux kernel. Project developers started using a DVCS called BitKeeper in 2002, but in 2005 this stopped due to personal tensions. Following this, Linus Torvalds (chief developer of Linux kernel) started making Git. Since it's development, Git has become one of the most utilized Version Control Systems in the world with millions of users.
 
 ## Setting up a Git Repository
 
 ## Workflow
 
 ## Remote Repositories
+
