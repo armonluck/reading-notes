@@ -41,7 +41,7 @@ Lets use the following piece of code as an example:
 
 ### Elements can have ***attributes***
 
-- class=“editor-note” , info about the element that does NOT appear in the actual content. 
+- class=“editor-note”, info about the element that does NOT appear in the actual content. 
 - “Class” is attribute name and “editor-note” is the attribute value
 - Quote ALL attribute values for consistency
 - Nesting elements: elements inside of other elements
@@ -50,3 +50,8 @@ Lets use the following piece of code as an example:
 
 > There are elements with NO content or closing tags.
 > For example, the `<img>` element.
+
+
+### HTML elements reference
+
+[Use the following website for a list of HTML elements!](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
