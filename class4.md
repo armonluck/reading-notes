@@ -35,8 +35,8 @@ Lets use the following piece of code as an example:
 
 `<p>My dog is very sleepy</p>`
 
-- Opening tag: `<p>`, consists of the name of element ‘p’ and surrounding brackets
-- Content
+- Opening tag: `<p>`, consists of the name of element ‘p’ and surrounding brackets. The opnening tag represents where the elements starts to take effect.
+- Content: `My dog is very sleepy`, is the content of the element. 
 - Closing tag: `</p>` includes a *forward slash* before the element name. 
 
 ### Elements can have ***attributes***
