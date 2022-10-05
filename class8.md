@@ -51,3 +51,9 @@ while(x < 100){
 // i = 0 | 0<5? T | console.log 0 | i is 1
 // i = 1 | 1<5? T | console.log 1 | i is 2
 // i = 2 | 2<3? T | console.log 2 | i is 3
+// i = 3 | 3<3? F | BREAK LOOP
+
+`function rateMyPage(){
+    let rating = prompt("How many starts would you rate my page?");
+    for (let i = 0; i < rating; i++){
+        document.write("STAR");}`
