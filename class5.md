@@ -36,9 +36,32 @@ New features for CSS are created as need or demand by the community require. How
 
 ### Browser Support Information
 
+> NOTE: CSS features can only be utilized in making a web page if browsers have implemented the feature.
 
+Code must be written to understand thet code in our CSS files and output design onto a monitor/screen. Browsers implement features at different times, so there can be gaps where CSS will fully implement on one browser but NOT another.
 
 ## How to Add CSS
+
+### Three Ways to Insert CSS
+
+There are three (3) ways of inserting a CSS style sheet into an HTML document: 
+
+1. External CSS
+2. Internal CSS
+3. Inline CSS
+
+#### External CSS
+
+An *external style sheet* is a separate file which can be used to add CSS style instructions for an entire website. Each HTML page must include a reference to the external style sheet inside the `<link>` elements inside the `<head>` section.
+
+> `<link rel=“stylesheet” href=“style.css”>`
+> *Industry Best Practices: A CSS file should be named "styles.css" or something similar to be easily read and understood by developers.*
+
+> **Note:** Do NOT add spaces between property values and the units.
+> Incorrect (space added): `margin-left: 20 px;`
+> Correct (no space): `margin-left: 20px;`
+
+
 
 ## CSS Color
 
