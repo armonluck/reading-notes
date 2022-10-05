@@ -18,10 +18,25 @@ CSS is defined by rules which specifiy what styles should be applied to an eleme
 
 Let's look at an example of CSS being used to style the heading on a page to be displayed as large blue text.
 
-`h1 {
-    color: red;
-    font-size: 5em;
-}`
+`h1 {color: red;
+    font-size: 5em;}`
+
+- The above CSS rule opens with a **selector** `<h1>` which selects the HTML element which is being styled.
+- Then a set of curly brackets `{}` is used to contain the styling code.
+- Inside the brackets are the **declarations** which can be split into a **property** and **value** pair. The declaration begins with the property `color` then a colon `:` to separate the value `red` followed by a semicolon `;` to end the declaration.
+- this example includes 2 declarations, one for `color` and one for `font-size`.
+
+### CSS Specifications
+
+Web standard technologies such as HTML, CSS, or JavaScript are defined by large reference documents aka *specifications* (or "specs"). These specs are kept up to date and published by organizations such as W3C, WHATWG, ECMA, or Khronos.
+
+CSS is developed by a group within the W3C known as the CSS Working Group. This group consists of internet browser vendors and companies who have an interest in maintaining CSS.
+
+New features for CSS are created as need or demand by the community require. However the CSS Working Group remains vigilant to NOT change CSS data that would "break old websites."
+
+### Browser Support Information
+
+
 
 ## How to Add CSS
 
