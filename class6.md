@@ -8,26 +8,6 @@ JavaScript (JS) is a programming or scripting language which adds interactivity 
 - CSS --> Style/Design
 - JS --> Actions/Interactivity
 
-Variables are labels/containers for storing data. A variable can have a declared/defined value or no value (undefinded).
-
-For example:
-
-Declaring a variable AND assigning value
-> let myName = "Armon"
-
-Delcaring a variable with NO value: 
-> let backpack;
-
-### Types of Data
-
-1. Strings --> Text
-    - `'Your text goes here'`
-2. Numbers --> No quotation marks
-    - `42; -5; 0.27`
-3. Boolean --> Logic
-    - `True`
-    - `False`
-
 ## Intro to JavaScript - Basic output
 
 JavaScript is typically used inside web browsers by adding JS code to the HTML page. The JS code can run in the browser (client side) as opposed to running on a web server (server side).
@@ -62,31 +42,73 @@ To embed JS a `<script>` opening tag and `</script>` closing tag are added with 
 ## JavaScript Input w/Prompt & Confirm
 
 1. JS command: `prompt("text", "___")`
-    - Shows a pop-up window with text provided as the 1st parameter and a blank textbox which the user can fill in. 
+    - Shows a pop-up window with text provided as the 1st parameter and a blank textbox which the user can fill in as the 2nd parameter.
+2. JS command: `confirm ("text")`
+    - The `confirm()` function is not a stand alone input method and instead allows for a Yes/No or True/False question. A pop window will show with text and two buttons. If the user presses `OK` the `confirm()` function will be `true` and if the user presses `cancel` or hits the `ESC` (escape) key the function will be `false`.
+    - `confirm` is usually used with an `if-else` statement in order to provide feedback to the user based on their response.
 
-## Variables
+## JavaScript Variables
+
+**Variables** are labels/containers for storing data or data values and can have different names. An easy way to think of variables is in terms of `x`, `y`, and `z` just like algebra. Additionally, variables can be *declared* in four different ways: using `var`, using `let`, using `const`, and using nothing. A variable can have a declared/defined value or no value (undefinded).
+
+For example:
+
+Declaring a variable AND assigning value
+> let myName = "Armon"
+
+Delcaring a variable with NO value: 
+> let backpack;
+
+### Using `var`
+
+The `var` keyword was used in ALL JavaScript code from 1995 to 2015. Keywords `let` and `const` were added to JS in 2015 and are recommended when declaring variables today. In order for code to run on older browsers, developers must use `var`.
+
+### Using `const` or `let`
+
+If a variable is constant and will or should NEVER change then use `const`. However, if variables are subject to change then declare them with `let`.
+
+### JavaScript identifiers
+
+All JS variables must be labeled with unique names or **identifiers**. Identifiers can be short (like a and b) or more descriptive (age, product, usersCollegeMajor). The rules for making unique identifiers are:
+
+- Names can contain letters, digits, underscores, and dollar signs.
+- Names should begin with a letter
+- Names can also begin with $ and _
+- Names are case sensitive **(`Name` and `name` are different variables)**
+- Reserved words such as JS keywords (`var`) cannot be used as names
+
+### Types of Data
+
+1. Strings --> Text
+    - `'Your text goes here'`
+2. Numbers --> No quotation marks
+    - `42; -5; 0.27`
+3. Boolean --> Logic
+    - `True`
+    - `False`
+
 
 ## [How Computers Work - YouTube Playlist](https://www.youtube.com/playlist?list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN-)
 
-#### Binary & Data
+### Binary & Data
 
 - Input: Telling a computer what to do.
 - Storage: Info that is stored in a computer's memory
 - Processing: A computer takes an input, runs an algorithm, and then produces an output
 - Output: Depends on what a computer is designed to do.
 
-#### Circuits & Logic
+### Circuits & Logic
 
 - Binary: a series of 1's and 0's which represents information to a computer
 - Bit: Smallest piece of information a computer can store. Represents a 1 or 0, True or False, and On or Off respectively.
 - Sound in Binary: Sound can be represented by a waveform with data points assigned which represent numbers on a graph.
 
-#### CPU, Memory, Input, & Output
+### CPU, Memory, Input, & Output
 
 - Circuits: A simple circuit takes an electrical signal (1 or 0) and flips it. A complicated circuit takes multiple signals and produces multiple outputs.
 - The smaller the circuit, the faster an electrical signal travels and performs a calculation.
 
-#### Hardware & Software
+### Hardware & Software
 
 - Input, Store, Process, and Output
 - Input Devices: Keyboard, touchpad, microphone, etc.
