@@ -2,6 +2,12 @@
 
 ## What is JavaScript?
 
+JavaScript (JS) is a programming or scripting language which adds interactivity to web pages. Examples of this interactivity include: interactive maps, animated 2D/3D graphhics, text boxes, buttons, etc. It also has uses in non-browser environments such as Node.js, Apache CouchDB, and Adobe Acrobat. JavaScript is NOT equivalent to the Java programming language as both languages have different syntax, semantics, and uses.
+
+- HTML --> Structure/Skeleton
+- CSS --> Style/Design
+- JS --> Actions/Interactivity
+
 Variables are labels/containers for storing data. A variable can have a declared/defined value or no value (undefinded).
 
 For example:
@@ -12,9 +18,47 @@ Declaring a variable AND assigning value
 Delcaring a variable with NO value: 
 > let backpack;
 
-### Intro to JavaScript - Basic output
+### Types of Data
 
-### How Computers Work
+1. Strings --> Text
+    - `'Your text goes here'`
+2. Numbers --> No quotation marks
+    - `42; -5; 0.27`
+3. Boolean --> Logic
+    - `True`
+    - `False`
+
+## Intro to JavaScript - Basic output
+
+JavaScript is typically used inside web browsers by adding JS code to the HTML page. The JS code can run in the browser (client side) as opposed to running on a web server (server side).
+
+Three Major Parts of "JavaScript":
+
+1. JS language - standard among various environments and various browsers/servers.
+2. DOM API - how the language interacts with various parts of a web page while in a given browser.
+3. Server API - provided by Node.js or other server-side systems.
+
+### Editor or IDE
+
+Most text editors can be used to write JS
+
+### Embedding or Adding JS to your HTML page
+
+JavaScript can be *embedded* directly inside the HTML file or a line of code can be added in the HTML file which will link to an external JS file.
+
+To embed JS a `<script>` opening tag and `</script>` closing tag are added with the JavaScript code inserted between the tags.
+
+### JavaScript Input/Output Commands
+
+1. JS command: `alert("text")`
+    - Shows a pop-up in the browser with the desired `"text"`
+2. JS command: `document.write("<h1>Hellow World</h1>")`
+    - Will display/write desired text at a certain location in the file.
+3. JS command: `console.log("text")`
+    - Allows developers to print out debugging information
+    - 
+
+## How Computers Work
 
 #### Binary & Data
 
