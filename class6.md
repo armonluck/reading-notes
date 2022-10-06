@@ -1,10 +1,6 @@
 # Class 6 Reading Notes - *Dynamic web pages with JavaScript*
 
-Hello how are you doing.
-
-#### What is JavaScript?
-
-***
+## What is JavaScript?
 
 Variables are labels/containers for storing data. A variable can have a declared/defined value or no value (undefinded).
 
@@ -13,23 +9,19 @@ For example:
 Declaring a variable AND assigning value
 > let myName = "Armon"
 
-Delcaring a variable with NO value
+Delcaring a variable with NO value: 
 > let backpack;
 
 ### Intro to JavaScript - Basic output
-***
 
-
-
-### How Computers Work!
-***
+### How Computers Work
 
 #### Binary & Data
 
-- Input: Telling a computer what to do. 
+- Input: Telling a computer what to do.
 - Storage: Info that is stored in a computer's memory
 - Processing: A computer takes an input, runs an algorithm, and then produces an output
-- Output: Depends on what a computer is designed to do. 
+- Output: Depends on what a computer is designed to do.
 
 #### Circuits & Logic
 
@@ -39,12 +31,12 @@ Delcaring a variable with NO value
 
 #### CPU, Memory, Input, & Output
 
-- Circuits: A simple circuit takes an electrical signal (1 or 0) and flips it. A complicated circuit takes multiple signals and produces multiple outputs. 
+- Circuits: A simple circuit takes an electrical signal (1 or 0) and flips it. A complicated circuit takes multiple signals and produces multiple outputs.
 - The smaller the circuit, the faster an electrical signal travels and performs a calculation.
 
 #### Hardware & Software
 
 - Input, Store, Process, and Output
-- Input Devices: Keyboard, touchpad, microphone, etc. 
+- Input Devices: Keyboard, touchpad, microphone, etc.
 - CPU: A keyboard converts a letter to numbers...
 - Output Devices: Screen/monitor, speakers, 3D printers, etc.
