@@ -66,8 +66,10 @@ Functions allow for code to be re-used by defining it once and using it repeated
 
 ### Arithmetic Operators
 
+Arithmetic operators are used to perform arithmetic on numbers:
+
 | Operator | Description |
--------- | ---------
+| -------- | --------- |
 | + | Addition |
 | - | Subtraction |
 | * | Multiplication |
@@ -77,6 +79,65 @@ Functions allow for code to be re-used by defining it once and using it repeated
 | ++ | Increment |
 | -- | Decrement |
 
+### Assignment Operators
+
+| Operator | Example |
+--------- | -------- |
+= | x = y
++= | x = x + y
+-= | x = x - y
+*= | x = x * y
+/= | x = x / y
+%= | x = x % y
+**= | x = x ** y
+
+### Comparison Operators
+
+Operators | Description
+--------- | ----------
+== | equal to
+=== | equal value and equal type
+!= | not equal
+!== | not equal value or not equal type
+`>` | greater than
+< | less than
+`>=` | greater than or equal to
+<= | less than or equal to
+? | ternary operator
+
+### Logical Operators
+
+Operators | Description
+------ | ---------
+`&&` | logical AND
+`II` | logical OR
+`!` | logical NOT
+
+JS operator: `&&` Logical AND
+
+- true && true —> true
+- false && true —> false
+- true && false —> false
+- false && false —> false
+
+JS operator: `||` Logical OR
+
+- Either side has to be true
+- true || false —> true
+- false || true —> true
+
 ## Expressions and Operators
 
 ## Functions
+
+command: `use strict`
+
+- tells JavaScript to perform based on strict JS rules
+
+command: `.toLowerCase()`
+
+- converts users input to ONLY lowercase
+
+command: `.toUpperCase()`
+
+- converts users input to ONLY uppercase
