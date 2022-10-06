@@ -2,7 +2,19 @@
 
 ## Expressions and Operators
 
-An expression is a valid unit of code that resolves to a value. There are two (2) types of expressions
+An expression is a valid unit of code that resolves to a value. All complex expressions are joined by *operators*. There are two (2) types of expressions: those with side effects (like assigning values) and those that only *evaluate*.
+
+1. Expression: `x = 7`
+    - Expression uses the `=` operator to assign a value of `7` to the variable `x`.
+2. Expression: `3 + 4`
+    - Expression ONLY evaluates this addition problem. It is NOT part of a bigger construct, there is no variable declaration, and results will be immediately discarded.
+    - Usually a programmer **mistake** because the evaluation does NOT produce any effects.
+
+The *precedence* of operators determines the order that they are applied when evaluation ane expression. Arithmetic operators seem to follow normal order of operations learned in introductory math classes. For a complete table of operator precedence and exceptions to the rules please refer to the [Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table) page.
+
+### Assignment Operators
+
+### Comparison Operators
 
 ## Loops
 
