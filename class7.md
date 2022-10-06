@@ -1,5 +1,19 @@
 # Class 7 Notes - *Programming with JavaScript*
 
+## *Useful JS Commands*
+
+command: `use strict`
+
+- tells JavaScript to perform based on strict JS rules
+
+command: `.toLowerCase()`
+
+- converts users input to ONLY lowercase
+
+command: `.toUpperCase()`
+
+- converts users input to ONLY uppercase
+
 ## [Control Flow](https://developer.mozilla.org/en-US/docs/Glossary/Control_flow)
 
 The ***control flow*** is the order in which a computer executes/runs statements in a script.
@@ -132,14 +146,4 @@ The above link is a detailed reference to JavaScript **expressions** and **opera
 
 ## [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
-command: `use strict`
-
-- tells JavaScript to perform based on strict JS rules
-
-command: `.toLowerCase()`
-
-- converts users input to ONLY lowercase
-
-command: `.toUpperCase()`
-
-- converts users input to ONLY uppercase
+The above link is a detailed reference to **functions** which are the basic building blocks in JavaScript. A function is a set of statements that perform/execute a task or calculate a value.
