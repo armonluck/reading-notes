@@ -1,6 +1,6 @@
 # Class 7 Notes - *Programming with JavaScript*
 
-## Control Flow
+## [Control Flow](https://developer.mozilla.org/en-US/docs/Glossary/Control_flow)
 
 The ***control flow*** is the order in which a computer executes/runs statements in a script.
 
@@ -17,7 +17,7 @@ An example of this exception can occur when a user is entering data on a webpage
 
 A typical script in JavaScript or PHP (Hypertext Preprocessor) includes many control structures including conditionals, loops, and functions.
 
-## JavaScript Functions
+## [JavaScript Functions](https://www.w3schools.com/js/js_functions.asp)
 
 A **function** is a block of code which performs/executes a specific task. A JS funcction is executed when it is **invoked** or called.
 
@@ -53,7 +53,7 @@ When JS receives a `return` statement, the function will stop executing. Functio
 
 Functions allow for code to be re-used by defining it once and using it repeatedly throughout a script. The same code can also be used multiple times with different **arguments** to produce different results/outputs.
 
-## JavaScript Operators
+## [JavaScript Operators](https://www.w3schools.com/js/js_operators.asp)
 
 **Types of JavaScript Operators:**
 
@@ -115,20 +115,22 @@ Operators | Description
 
 JS operator: `&&` Logical AND
 
-- true && true —> true
-- false && true —> false
-- true && false —> false
-- false && false —> false
+- true `&&` true —> true
+- false `&&` true —> false
+- true `&&` false —> false
+- false `&&` false —> false
 
 JS operator: `||` Logical OR
 
 - Either side has to be true
-- true || false —> true
-- false || true —> true
+- true `||` false —> true
+- false `||` true —> true
 
-## Expressions and Operators
+## [Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
-## Functions
+The above link is a detailed reference to JavaScript **expressions** and **operators**. An expression is a valid unit of code that resolves to a value.
+
+## [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 command: `use strict`
 
