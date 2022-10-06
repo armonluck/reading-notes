@@ -64,6 +64,19 @@ Functions allow for code to be re-used by defining it once and using it repeated
 - Conditional Operators
 - Type Operators
 
+### Arithmetic Operators
+
+| Operator | Description |
+-------- | ---------
+| + | Addition |
+| - | Subtraction |
+| * | Multiplication |
+| ** | Exponentiation |
+| / | Division |
+| % | Modulus (Division Remainder) |
+| ++ | Increment |
+| -- | Decrement |
+
 ## Expressions and Operators
 
 ## Functions
