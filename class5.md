@@ -8,11 +8,11 @@ A document or text file is structured using a markup language such as [HTML](cla
 
 > Note: Internet browsers (Google Chrome, Microsoft Edge, Mozilla Firefox, etc.) are also known as **user agents**.
 
-When we see how basic HTML is read in a web browser we can notice that the text does have design elements applied such as headings being larger and links being blue/underlined. This is because our internet browser's have very basic CSS styles built into them that applies what is written in HTML.
+When we see how basic HTML is read in a web browser we can notice that the text does have design elements applied such as headings being larger and links being blue/underlined. This is because our internet browsers have very basic CSS styles built into them that apply what is written in HTML.
 
 ### CSS Syntax
 
-CSS is defined by rules which specifiy what styles should be applied to an elements or groups of elements written by your markup language.
+CSS is defined by rules which specify what styles should be applied to an element or groups of elements written by your markup language.
 
 > HTML is the markup language that most people are familiar with, however, there are others such as SVG or XML which can be styled by CSS.
 
@@ -30,15 +30,13 @@ Let's look at an example of CSS being used to style the heading on a page to be 
 
 Web standard technologies such as HTML, CSS, or JavaScript are defined by large reference documents aka *specifications* (or "specs"). These specs are kept up to date and published by organizations such as W3C, WHATWG, ECMA, or Khronos.
 
-CSS is developed by a group within the W3C known as the CSS Working Group. This group consists of internet browser vendors and companies who have an interest in maintaining CSS.
-
-New features for CSS are created as need or demand by the community require. However the CSS Working Group remains vigilant to NOT change CSS data that would "break old websites."
+CSS is developed by a group within the W3C known as the CSS Working Group. This group consists of internet browser vendors and companies who have an interest in maintaining CSS. New features for CSS are created as need or demand by the community requires. However, the CSS Working Group remains vigilant to NOT change any CSS data that would "break old websites."
 
 ### Browser Support Information
 
 > NOTE: CSS features can only be utilized in making a web page if browsers have implemented the feature.
 
-Code must be written to understand thet code in our CSS files and output design onto a monitor/screen. Browsers implement features at different times, so there can be gaps where CSS will fully implement on one browser but NOT another.
+Code must be written to understand the instructions in our CSS files and output design onto a monitor/screen. Browsers implement features at different times, so there can be gaps where CSS will fully implement on one browser but NOT another.
 
 ## How to Add CSS
 
