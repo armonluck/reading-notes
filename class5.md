@@ -52,19 +52,31 @@ There are three (3) ways of inserting a CSS style sheet into an HTML document:
 
 ### External CSS
 
-An *external style sheet* is a separate file which can be used to add CSS style instructions for an entire website. Each HTML page must include a reference to the external style sheet inside the `<link>` elements inside the `<head>` section.
+An *external style sheet* is a separate file which can be used to add CSS style instructions for an entire website. Each HTML page must include a reference to the external style sheet inside the `<link>` elements inside the `<head>` section. An external style sheet can be written in any text editor and must be saved with an `.css` extension. The industry best practice is to title this file `style.css`
 
-- Code: `<link rel=“stylesheet” href=“style.css”>`
+- How to Link to a Style Sheet within your HTML file: `<link rel=“stylesheet” href=“style.css”>`
 
 > **Note:** Do NOT add spaces between property values and the units.
 
 - Incorrect (space added): `margin-left: 20 px;`
 - Correct (no space): `margin-left: 20px;`
 
+### Internal CSS
 
-## CSS Color
+An *internal style sheet* can be used if a single HTML page has a unique style. The internal style is defined using a `<style>` element inside the `<head>` section. 
 
-## CSS Reference
+### Inline CSS
 
-## Myers Web Reset Stylesheet
+*Inline* CSS styling is used for adding unique design to a single element. In this method, the style attribute is added directly to the element as shown below. 
 
+`<h1> style="color:blue;text-align:center;"This is a heading</h1>`
+
+#### Cascading Order
+
+If more than one CSS style is used for a specific HTML element then the styles will *"cascade"* based on the following order of priority.
+
+1. Inline style (inside an HTML element) = Highest priority
+2. External & Internal style sheets (in the `<head>` section)
+3. Browser defaults = Lowest priority
+
+## [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
