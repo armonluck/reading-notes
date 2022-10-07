@@ -10,11 +10,11 @@ An expression is a valid unit of code that resolves to a value. All complex expr
     - Expression ONLY evaluates this addition problem. It is NOT part of a bigger construct, there is no variable declaration, and results will be immediately discarded.
     - Usually a programmer **mistake** because the evaluation does NOT produce any effects.
 
-The *precedence* of operators determines the order that they are applied when evaluation ane expression. Arithmetic operators seem to follow normal order of operations learned in introductory math classes. For a complete table of operator precedence and exceptions to the rules please refer to the [Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table) page.
+The *precedence* of operators determines the order that they are applied when evaluating an expression. Arithmetic operators seem to follow normal order of operations learned in introductory math classes. For a complete table of operator precedence and exceptions to the rules please refer to the [Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table) page.
 
 ### Assignment Operators
 
-An assignment operator assigns a value to its left operand based on the value of the right operand. A simple assignmnet operator is `=` which assigns the value of its right operand to the left operand. To explain, in the expression `x = f()`, teh value of `f()` is assigned to `x`. There are also **compound assignment operators** which are shorthand for mathematic operations. 
+An assignment operator assigns a value to its left operand based on the value of the right operand. A simple assignment operator is `=` which assigns the value of its right operand to the left operand. To explain, in the expression `x = f()`, the value of `f()` is assigned to `x`. There are also **compound assignment operators** which are shorthand for mathematic operations. 
 
 ### Comparison Operators
 
