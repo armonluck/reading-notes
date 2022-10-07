@@ -14,19 +14,49 @@ The *precedence* of operators determines the order that they are applied when ev
 
 ### Assignment Operators
 
+An assignment operator assigns a value to its left operand based on the value of the right operand. A simple assignmnet operator is `=` which assigns the value of its right operand to the left operand. To explain, in the expression `x = f()`, teh value of `f()` is assigned to `x`. There are also **compound assignment operators** which are shorthand for mathematic operations. 
+
 ### Comparison Operators
+
+A comparison operator compares operands and returns a logical value based on whether the comparison is "true".
 
 ## Loops
 
-Computerized version of the game where someone is told to take 'x' steps in one direction, then 'y' steps in another direction.
+Loops are functions that provide a quicky and easy way to perform an action repeatedly. There are many types of loops, but they all have a similar function: repeat an action some 'i' number of times (the number could be 0 or infinity)
 
-Loops are really helpful when you are trying to do something repeatedly. 
+### *for* Loops
 
-### *While* Loops
+A `for` loop repeats until a specified condition evaluates to false. Useful when the programmer knows or expects how many steps/actions will be needed. 
 
-Used when we don’t know how long something will take or how many loops we want. 
+> Structure: `for`
 
-> Structure: WHILE
+`for(initial value; condition to evaluate; increment){code to execute}`
+
+> Example 1
+
+`for (let i = 0; i < 3; i++){
+    console.log(i);
+    }`
+
+Initial Value | Logic Evaluation | Code to Execute | Next Value
+--- | --- | --- | ---
+i = 0 | 0<5? True| console.log 0 | i is 1
+i = 1 | 1<5? True | console.log 1 | i is 2
+i = 2 | 2<3? True | console.log 2 | i is 3
+i = 3 | 3<3? False | BREAK LOOP | N/A
+
+> Example 2
+
+`function rateMyPage(){
+    let rating = prompt("How many starts would you rate my page?");
+    for (let i = 0; i < rating; i++){
+        document.write("STAR");}`
+
+### *while* Loops
+
+Used when we don’t know how long something will take or how many loops we want. A `while` statement is executed as long as a condition evaluates to `true`.
+
+> Structure: `while`
 
 `while (condition to evaluate is true){execute this code}`
 
@@ -47,25 +77,3 @@ while (response !== 'yellow'){response = prompt("Wrong, guess again");
 while(x < 100){
     console.log(x);
     x++;}`
-
-### *For* Loops
-
-> Structure: FOR
-
-`for(initial value; condition to evaluate; increment){code to execute}`
-
-> Example 1
-
-`for (let i = 0; i < 3; i++){
-    console.log(i);
-    }`
-
-// i = 0 | 0<5? T | console.log 0 | i is 1
-// i = 1 | 1<5? T | console.log 1 | i is 2
-// i = 2 | 2<3? T | console.log 2 | i is 3
-// i = 3 | 3<3? F | BREAK LOOP
-
-`function rateMyPage(){
-    let rating = prompt("How many starts would you rate my page?");
-    for (let i = 0; i < rating; i++){
-        document.write("STAR");}`
