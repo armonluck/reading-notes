@@ -7,3 +7,4 @@ Growth Mindset means persevering through difficult challenges even when you may 
 - "If you don't attack anxiety, anxiety will attack you."
 - Work towards what your ideal self dreams of, not towards what your current self worries about
 - Everyone, even a genius or industry expert, starts out knowing nothing
+- Consistenty and dedication will always be there to support you, but motivation is fleeting

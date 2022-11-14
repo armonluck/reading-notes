@@ -34,7 +34,7 @@ Git's history begins with an open source software project called Linux kernel. P
 
 ### Cloning
 
-A copy of an existing Git repository can be cloned down to a computer server using the clone command with a repository's URL: 
+A copy of an existing Git repository can be cloned down to a computer server using the clone command with a repository's URL:
 > `git clone [Git repository URl]`
 
 ## Workflow
