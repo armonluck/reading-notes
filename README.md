@@ -19,7 +19,3 @@ My reading journal for Code Fellows: Intro to Software Development (seattle-code
 - [Class 6 Notes - Dynamic web pages with JavaScript](class6.md)
 - [Class 7 Notes - Programming with JavaScript](class7.md)
 - [Class 8 Notes - Operators and Loops](class8.md)
-
-Have fun with a coding meme.
-
-![Coding meme: Picture of a person sitting at their computer. Top image says "It doesn't work...why?" Bottom image says "It works...why?"](https://www.digitaltechnologylabs.com/wp-content/uploads/2019/06/01-240x300.jpg)
